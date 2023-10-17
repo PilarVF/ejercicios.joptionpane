@@ -11,9 +11,9 @@ public class JOptionPane4 {
 				JOptionPane.QUESTION_MESSAGE);
 		
 		if(nombre != null) {
-			System.out.println("Has pulsado Aceptar, tu nombre de usuario es: " + nombre + ".");
+			System.out.println("Has pulsado Ok, tu nombre de usuario es: " + nombre + ".");
 		} else {
-			System.out.println("Has pulsado Calcelar.");
+			System.out.println("Has pulsado Calcel.");
 		}
 	}
 }
