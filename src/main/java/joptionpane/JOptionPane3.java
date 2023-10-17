@@ -9,9 +9,9 @@ public class JOptionPane3 {
 				JOptionPane.QUESTION_MESSAGE);
 		
 		if(nombre != null) {
-			System.out.println("Has pulsado Aceptar, tu nombre es " + nombre + ".");
+			System.out.println("Has pulsado Ok, tu nombre es " + nombre + ".");
 		} else {
-			System.out.println("Has pulsado Cancelar.");
+			System.out.println("Has pulsado Cancel.");
 		}
 	}
 }
